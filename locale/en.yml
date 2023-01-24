@@ -2,6 +2,8 @@ shaybox-grammarly:
   # For more details on the format
   # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
   admin:
-    my_cool_key: My Cool Key
+      client_id:
+        label: Grammarly Client ID
+        help: https://developer.grammarly.com/apps
 
   forum:

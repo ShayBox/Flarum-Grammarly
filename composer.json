@@ -24,11 +24,11 @@
     "extra": {
         "flarum-extension": {
             "title": "Grammarly",
-            "category": "",
+            "category": "feature",
             "icon": {
-                "name": "",
-                "color": "",
-                "backgroundColor": ""
+                "name": "fas fa-spell-check",
+                "backgroundColor": "#57b276",
+                "color": "#fbfdfd"
             }
         },
         "flarum-cli": {
