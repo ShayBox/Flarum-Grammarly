@@ -16,6 +16,7 @@ app.initializers.add('shaybox/grammarly', () => {
               addedNode.matches("[contenteditable='true']"))
           ) {
             let editorPlugin = document.createElement("grammarly-editor-plugin");
+            editorPlugin.setAttribute('client-id', app.forum.attribute("grammarly_client_id"));
             addedNode.parentNode.insertBefore(editorPlugin, addedNode);
             editorPlugin.appendChild(addedNode);
           }
